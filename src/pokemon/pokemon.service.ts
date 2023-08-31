@@ -14,7 +14,6 @@ export class PokemonService {
     @InjectModel(Pokemon.name)
     private readonly pokemonModel: Model<Pokemon>
   ){
-
   }
 
   async create(createPokemonDto: CreatePokemonDto)  {
